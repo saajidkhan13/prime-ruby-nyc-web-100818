@@ -20,11 +20,7 @@ newArray.each do |value|
     return false 
   end 
   
-  def excludevalues(int, newArray)
-    newArray.each do |number| 
-      if number%int == 0 
-        newArray.delete(number) 
-      end 
+
     
 
     

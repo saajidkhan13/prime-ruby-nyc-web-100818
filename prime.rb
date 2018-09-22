@@ -1,7 +1,7 @@
-def prime?(intArg)
-  return false if intArg < 2 
-  (2..intArg -1).each do |num|
-    if (intArg % num) == 0 
+def prime?(number_argument)
+  return false if number_argument < 2 
+  (2..number_argument -1).each do |num|
+    if (number_argument % num) == 0 
       return false 
   end 
 end 

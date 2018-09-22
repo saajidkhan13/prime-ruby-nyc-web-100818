@@ -26,5 +26,5 @@ newArray.each do |value|
         newArray.delete(number) 
       end 
       
-    end 
+     
     

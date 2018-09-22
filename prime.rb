@@ -7,5 +7,5 @@ def prime?(number)
     newArray << i
     i += 1 
   end
-  
+end 
     

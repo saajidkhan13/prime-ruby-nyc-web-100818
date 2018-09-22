@@ -28,7 +28,7 @@ def excludeValues(int, newArray)
     
 end 
 end 
-
+end 
     
 
     

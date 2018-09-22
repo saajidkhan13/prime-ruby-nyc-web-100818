@@ -21,6 +21,8 @@ newArray.each do |value|
   end 
   
 end 
+end 
+
     
 
     

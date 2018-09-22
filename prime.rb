@@ -25,8 +25,6 @@ newArray.each do |value|
       if number%int == 0 
         newArray.delete(number) 
       end 
-    end
-  end
-end
+    
 
     

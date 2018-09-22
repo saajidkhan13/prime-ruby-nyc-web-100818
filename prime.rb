@@ -1,36 +1,9 @@
-# Add  code here!
-def prime?(number)
-  newArray = []
-  primeNumbers= []
-  i = 2 
-  while i <= number do 
-    newArray << i
-    i += 1 
-  end
-  
-  def excludeValues(int, newArray)
-  newArray.each do |number| 
-    if number%int == 0 
-      newArray.delete(number) 
-    end 
-
-newArray.each do |value|
-  if primeNumbers.include?(value) == false 
-    primeNumbers << value 
-    excludeValues(value, newArray) 
+def prime?(intArg)
+  return false if intArg < 2 
+  (2..intArg -1).each do |num|
+    if (intArg % num) == 0 
+      return false 
   end 
-  
-  if primeNumbers.include?(number)
-    return true 
-  else 
-    return false 
-  end 
-
-
-    
 end 
+true 
 end 
-end 
-end 
-
-    
